@@ -14,17 +14,17 @@ namespace RadonTest
 
             NineSliceInfo btnSliceInfo = new NineSliceInfo
             {
-                texture = new Texture("btn.png"),
+                texture = new Texture("images/skin.png"),
 
                 x0 = 0,
-                x1 = 5,
-                x2 = 11,
-                x3 = 16,
+                x1 = 3,
+                x2 = 21,
+                x3 = 24,
 
                 y0 = 0,
-                y1 = 5,
-                y2 = 11,
-                y3 = 16,
+                y1 = 3,
+                y2 = 21,
+                y3 = 24,
             };
 
             NineSliceSprite btn = new NineSliceSprite(btnSliceInfo)
@@ -56,7 +56,7 @@ namespace RadonTest
             {
                 window.DispatchEvents();
 
-                window.Clear(new Color(120, 120, 120));
+                window.Clear(new Color(236, 233, 216));
                 window.Draw(btn);
                 window.Display();
             }

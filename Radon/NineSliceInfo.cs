@@ -8,7 +8,7 @@ namespace Radon
     /// <summary>
     /// Information about how a 9-slice sprite is located within a texture.
     /// </summary>
-    public struct NineSliceInfo
+    public class NineSliceInfo
     {
         public Texture texture;
 
